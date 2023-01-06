@@ -1,0 +1,37 @@
+.header{
+  font-family: 'Work Sans';
+  background-image: url(/images/banner/banner3.png);
+  position: absolute;
+  width: 1520px;
+  height: 808px;
+  left: 0px;
+  top: 0px;
+}
+.banner {
+  color: white;
+  text-align: right;
+  position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+
+}
+.primary-btn{
+  padding: 18px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px ;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  color:  #005FAC;;
+}
+.title{
+  font-weight: 700;
+  font-size: 65px;
+}
+.text{
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
