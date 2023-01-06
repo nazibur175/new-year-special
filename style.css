@@ -8,7 +8,7 @@
   top: 0px;
 }
 .banner {
-  color: white;
+  
   text-align: right;
   position: absolute;
 width: 525px;
@@ -28,10 +28,12 @@ top: 216px;
   color:  #005FAC;;
 }
 .title{
+  color: white;
   font-weight: 700;
   font-size: 65px;
 }
 .text{
+  color: white;
   margin-top: 24px;
   margin-bottom: 32px;
 }
