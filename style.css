@@ -163,3 +163,63 @@ li:before {
   padding-right: 500px;
   padding-bottom: 50px;
 }
+
+/* Footer part */
+
+footer{
+  background: #151414;
+  display: flex;
+}
+.left-part{
+  color: #F8F8F8;
+  padding: 130px 400px 150px 230px ;
+}
+.left-footer-title{
+  margin-bottom: 16px;
+}
+.left-description,.email,.phone,.icon{
+  margin-bottom: 24px;
+  color: white;
+}
+.icon{
+  justify-content: space-between;
+}
+
+.right-part{
+  padding-top: 130px;
+  padding-right: 230px;
+}
+.right-part-title{
+  color: #F8F8F8;
+  margin-bottom: 26px;
+}
+#mail{
+  margin-bottom: 26px;
+}
+
+input[type="email"]
+{
+  background-color:black;
+  color: white;
+  border: 2px solid;
+  border-radius: 6px;
+  padding-left: 10px;
+  width: 300px;
+  height: 60px;
+}
+input::placeholder{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+.footer-submit{
+
+  background-color: #005FAC;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 20px;
+  border: 2px;
+  border-radius: 5px;
+}
