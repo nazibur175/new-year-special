@@ -1,39 +1,102 @@
-.header{
+* {
+  margin: 0;
   font-family: 'Work Sans';
+}
+
+
+/* Banner design */
+
+.header {
+
   background-image: url(images/banner/banner3.png);
-  position: absolute;
+  background-repeat: no-repeat;
   width: 1520px;
   height: 808px;
-  left: 0px;
-  top: 0px;
-}
-.banner {
-  
-  text-align: right;
-  position: absolute;
-width: 525px;
-height: 228px;
-left: 845px;
-top: 216px;
+  margin-bottom: 10px;
 
 }
-.primary-btn{
-  padding: 18px 20px;
+
+.banner {
+
+  text-align: right;
+  position: absolute;
+  width: 525px;
+  height: 228px;
+  left: 845px;
+  top: 216px;
+
+
+}
+
+.primary-btn {
+  color: #005FAC;
   font-weight: 700;
   font-size: 20px;
+  padding: 18px 20px;
   border: 2px;
-  border-radius: 5px ;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  color:  #005FAC;;
+  border-radius: 5px;
+
 }
-.title{
+
+.title {
   color: white;
   font-weight: 700;
   font-size: 65px;
 }
-.text{
+
+.text {
   color: white;
   margin-top: 24px;
   margin-bottom: 32px;
+}
+
+
+/* My failure in the previous year styles */
+
+
+main {
+
+  padding: 100px 150px;
+  text-align: center;
+
+}
+
+.main-failure {
+  display: flex;
+}
+
+.sub-failure {
+  text-align: left;
+  padding: 300px 100px 70px 70px;
+}
+
+.primary-title {
+  height: 100px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #151414;
+}
+
+.failure-description {
+  height: 100px;
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+.failure-keynotes {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+li:before {
+  content: '✓ ';
+  color: chartreuse
 }
