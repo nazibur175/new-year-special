@@ -100,3 +100,48 @@ li:before {
   content: '✓ ';
   color: chartreuse
 }
+
+
+/*my planes*/
+
+
+.my-planes {
+
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #151414;
+  padding-bottom: 50px;
+}
+
+.plan-container {
+  display: flex;
+  gap: 86px;
+}
+
+.plan {
+  justify-content: space-around;
+
+}
+
+.plan-sub-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  padding: 24px;
+  color: #151414;
+}
+
+.plan-description {
+
+  color: #444343;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/*positive-mindset*/
